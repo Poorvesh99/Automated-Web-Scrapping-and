@@ -1,0 +1,36 @@
+Dependencies:
+	1.pandas
+	2.openpyxl: to read excel file
+	3.requests
+	4.beautifulsoup4
+	5.nltk	
+	6.os
+	7.string
+	8.csv
+note:
+install these given dependencies:
+	by running:
+		pip install dependency_name
+
+Download NLTK Data
+	In addition to installing the nltk package, you need to download the required NLTK data:
+		run this in terminal to download the nltk data:
+			python -c "import nltk; nltk.download('punkt'); nltk.download('stopwords')"
+
+Important note: keep whole folder together these directories and files are required for script to run smoothly 	these are the files provided by you
+
+requried directores and files:
+	StopWords/StopWords_Auditor.txt
+	StopWords/StopWords_Currencies.txt
+	Other stop words files...
+	MasterDictionary/positive-words.txt
+	MasterDictionary/negative-words.txt
+	Input.xlsx
+	
+	note:ensure Input.xlsx is in same directory
+
+Run:
+	python3 script.py
+
+ 
+		 
